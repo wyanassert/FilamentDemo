@@ -1,0 +1,64 @@
+PODS:
+  - Filament (1.36.0):
+    - Filament/camutils (= 1.36.0)
+    - Filament/filamat (= 1.36.0)
+    - Filament/filament (= 1.36.0)
+    - Filament/filameshio (= 1.36.0)
+    - Filament/gltfio_core (= 1.36.0)
+    - Filament/image (= 1.36.0)
+    - Filament/ktxreader (= 1.36.0)
+    - Filament/math (= 1.36.0)
+    - Filament/tsl (= 1.36.0)
+    - Filament/uberz (= 1.36.0)
+    - Filament/utils (= 1.36.0)
+    - Filament/viewer (= 1.36.0)
+  - Filament/camutils (1.36.0):
+    - Filament/math
+  - Filament/filamat (1.36.0):
+    - Filament/math
+    - Filament/utils
+  - Filament/filament (1.36.0):
+    - Filament/math
+    - Filament/utils
+  - Filament/filameshio (1.36.0):
+    - Filament/filament
+  - Filament/gltfio_core (1.36.0):
+    - Filament/filament
+    - Filament/ktxreader
+    - Filament/uberz
+  - Filament/image (1.36.0):
+    - Filament/filament
+  - Filament/ktxreader (1.36.0):
+    - Filament/filament
+    - Filament/image
+  - Filament/math (1.36.0)
+  - Filament/tsl (1.36.0)
+  - Filament/uberz (1.36.0):
+    - Filament/filamat
+    - Filament/tsl
+    - Filament/utils
+  - Filament/utils (1.36.0):
+    - Filament/tsl
+  - Filament/viewer (1.36.0):
+    - Filament/filament
+    - Filament/gltfio_core
+  - LookinServer (1.1.7):
+    - LookinServer/Core (= 1.1.7)
+  - LookinServer/Core (1.1.7)
+
+DEPENDENCIES:
+  - Filament
+  - LookinServer
+
+SPEC REPOS:
+  trunk:
+    - Filament
+    - LookinServer
+
+SPEC CHECKSUMS:
+  Filament: 4f72cc74d649abd247f76b7198eedfdcb30c8a65
+  LookinServer: 4ce0469b066871525611d009d8d16a7a50c23491
+
+PODFILE CHECKSUM: 3b69eeca3e69ba0fff53e52d16fe06217b3e27a2
+
+COCOAPODS: 1.11.2

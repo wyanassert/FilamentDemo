@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93D9DEEE2A29DCAA0024D3C6 /* FilamentViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93D9DEED2A29DCAA0024D3C6 /* FilamentViewController.mm */; };
+		93D9DEF02A29DEB30024D3C6 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D9DEEF2A29DEB30024D3C6 /* MetalKit.framework */; };
 		93FE33C12A29D6DA0030598C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FE33C02A29D6DA0030598C /* AppDelegate.m */; };
 		93FE33C42A29D6DA0030598C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FE33C32A29D6DA0030598C /* SceneDelegate.m */; };
 		93FE33C72A29D6DA0030598C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FE33C62A29D6DA0030598C /* ViewController.m */; };
@@ -14,9 +16,13 @@
 		93FE33CC2A29D6DB0030598C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93FE33CB2A29D6DB0030598C /* Assets.xcassets */; };
 		93FE33CF2A29D6DB0030598C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93FE33CD2A29D6DB0030598C /* LaunchScreen.storyboard */; };
 		93FE33D22A29D6DB0030598C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FE33D12A29D6DB0030598C /* main.m */; };
+		D1E221CA512101A19048BDD3 /* Pods_FilamentDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7FCDA3B77E238FF876595A9 /* Pods_FilamentDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93D9DEEC2A29DCAA0024D3C6 /* FilamentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilamentViewController.h; sourceTree = "<group>"; };
+		93D9DEED2A29DCAA0024D3C6 /* FilamentViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FilamentViewController.mm; sourceTree = "<group>"; };
+		93D9DEEF2A29DEB30024D3C6 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
 		93FE33BC2A29D6DA0030598C /* FilamentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilamentDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93FE33BF2A29D6DA0030598C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		93FE33C02A29D6DA0030598C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +35,9 @@
 		93FE33CE2A29D6DB0030598C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93FE33D02A29D6DB0030598C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93FE33D12A29D6DB0030598C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2B2639A48677F4C41BBE513 /* Pods-FilamentDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilamentDemo.debug.xcconfig"; path = "Target Support Files/Pods-FilamentDemo/Pods-FilamentDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E1C0345C0976E44A65F10790 /* Pods-FilamentDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilamentDemo.release.xcconfig"; path = "Target Support Files/Pods-FilamentDemo/Pods-FilamentDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E7FCDA3B77E238FF876595A9 /* Pods_FilamentDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FilamentDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +45,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93D9DEF02A29DEB30024D3C6 /* MetalKit.framework in Frameworks */,
+				D1E221CA512101A19048BDD3 /* Pods_FilamentDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		759879B3D63980A64C3296CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2B2639A48677F4C41BBE513 /* Pods-FilamentDemo.debug.xcconfig */,
+				E1C0345C0976E44A65F10790 /* Pods-FilamentDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		85BFED18DA3645F3EA7F7DCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93D9DEEF2A29DEB30024D3C6 /* MetalKit.framework */,
+				E7FCDA3B77E238FF876595A9 /* Pods_FilamentDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		93FE33B32A29D6DA0030598C = {
 			isa = PBXGroup;
 			children = (
 				93FE33BE2A29D6DA0030598C /* FilamentDemo */,
 				93FE33BD2A29D6DA0030598C /* Products */,
+				759879B3D63980A64C3296CC /* Pods */,
+				85BFED18DA3645F3EA7F7DCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +98,8 @@
 				93FE33C32A29D6DA0030598C /* SceneDelegate.m */,
 				93FE33C52A29D6DA0030598C /* ViewController.h */,
 				93FE33C62A29D6DA0030598C /* ViewController.m */,
+				93D9DEEC2A29DCAA0024D3C6 /* FilamentViewController.h */,
+				93D9DEED2A29DCAA0024D3C6 /* FilamentViewController.mm */,
 				93FE33C82A29D6DA0030598C /* Main.storyboard */,
 				93FE33CB2A29D6DB0030598C /* Assets.xcassets */,
 				93FE33CD2A29D6DB0030598C /* LaunchScreen.storyboard */,
@@ -83,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93FE33D52A29D6DB0030598C /* Build configuration list for PBXNativeTarget "FilamentDemo" */;
 			buildPhases = (
+				4DF0B2D0ADEAA062D5CED045 /* [CP] Check Pods Manifest.lock */,
 				93FE33B82A29D6DA0030598C /* Sources */,
 				93FE33B92A29D6DA0030598C /* Frameworks */,
 				93FE33BA2A29D6DA0030598C /* Resources */,
+				E9685068422BB1F3D14C1F9B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,7 +146,7 @@
 				};
 			};
 			buildConfigurationList = 93FE33B72A29D6DA0030598C /* Build configuration list for PBXProject "FilamentDemo" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -141,6 +176,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4DF0B2D0ADEAA062D5CED045 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FilamentDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9685068422BB1F3D14C1F9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FilamentDemo/Pods-FilamentDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FilamentDemo/Pods-FilamentDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FilamentDemo/Pods-FilamentDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		93FE33B82A29D6DA0030598C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -148,6 +225,7 @@
 			files = (
 				93FE33C72A29D6DA0030598C /* ViewController.m in Sources */,
 				93FE33C12A29D6DA0030598C /* AppDelegate.m in Sources */,
+				93D9DEEE2A29DCAA0024D3C6 /* FilamentViewController.mm in Sources */,
 				93FE33D22A29D6DB0030598C /* main.m in Sources */,
 				93FE33C42A29D6DA0030598C /* SceneDelegate.m in Sources */,
 			);
@@ -287,6 +365,7 @@
 		};
 		93FE33D62A29D6DB0030598C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B2639A48677F4C41BBE513 /* Pods-FilamentDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -300,6 +379,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +394,7 @@
 		};
 		93FE33D72A29D6DB0030598C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1C0345C0976E44A65F10790 /* Pods-FilamentDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -327,6 +408,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
